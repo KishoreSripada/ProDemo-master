@@ -8,7 +8,7 @@ Feature: Ordering fruit
     Given I go to the fruit site
 
   @shoppingBasket
-  Scenario: Update shopping basket
+  Scenario: Update shopping basket scenario
     When I click on "Pear"
     And I click the add button in fruit details screen
     And the total items should be "1" and the total price "8.00"
