@@ -1,0 +1,7 @@
+.idea/*
+**/node_modules/
+reports/
+**/node_modules_fake/
+**/documentation/
+**/testSet/features/reporting/
+
