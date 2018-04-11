@@ -27,3 +27,6 @@ var gulp = require('gulp'),
                 throw e;
             });
     });
+	
+	// Default Task
+gulp.task('default', ['E2E', 'shoppingBasket']);
