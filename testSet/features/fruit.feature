@@ -7,13 +7,13 @@ Feature: Ordering fruit
   Background:
     Given I go to the fruit site
 
-  @shoppingBasket
-  Scenario: Update shopping basket scenario
-    When I click on "Pear"
-    And I click the add button in fruit details screen
-    And the total items should be "1" and the total price "8.00"
-    And I click on the clear button
-    Then the total items should be "0" and the total price "0.00"
+  #@shoppingBasket
+  #Scenario: Update shopping basket scenario
+   # When I click on "Pear"
+    #And I click the add button in fruit details screen
+    #And the total items should be "1" and the total price "8.00"
+    #And I click on the clear button
+    #Then the total items should be "0" and the total price "0.00"
 
   @summary
   Scenario: Summary page
